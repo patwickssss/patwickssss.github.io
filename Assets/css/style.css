@@ -1,3 +1,7 @@
+.shadow-top {
+    box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.03) !important;
+}
+
 @media (min-width: 992px) {
     .row-reverse {
         flex-direction: row-reverse;
@@ -5,5 +9,70 @@
 
     .justify-content-start-lg {
         justify-content: flex-start;
+    }
+
+    .text-align-justify {
+        text-align: justify;
+    }
+    
+}
+
+/* -------------------------------------------------- */
+
+.profile-img {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 3.5rem;
+    margin: 0;
+    margin-left: 2.5rem;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand-custom {
+        font-size: 1.25rem;
+    }
+
+    .nav-link-custom {
+        margin: 0 0.25rem;
+        font-size: 0.9rem;
+    }
+
+    .profile-img {
+        max-width: 280px;
+    }
+
+    .profile-image {
+        max-width: 250px;
+        margin-top: 1rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .card-img-custom {
+        height: 150px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-img {
+        max-width: 220px;
+    }
+
+    .profile-image {
+        max-width: 200px;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-img {
+        max-width: 180px;
     }
 }
