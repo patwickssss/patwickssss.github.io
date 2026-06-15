@@ -27,7 +27,7 @@
                 <div class="navbar-nav text-end fs-5">
                     <a class="nav-link text-black text-decoration-none mx-2 active" aria-current="page"
                         href="#home">Home</a>
-                    <a class="nav-link text-black text-decoration-none mx-2" href="#academic">Academic</a>
+                    <!-- <a class="nav-link text-black text-decoration-none mx-2" href="#academic">Academic</a> -->
                     <a class="nav-link text-black text-decoration-none mx-2" href="#projects">Projects</a>
                     <a class="nav-link text-black text-decoration-none mx-2" href="#socials">Socials</a>
                 </div>
@@ -45,7 +45,7 @@
                     </div>
                     <div class="col-lg-7 col-12 mb-5 mb-lg-0">
                         <h1 class="display-4 fw-bold mt-5">Hello, I'm <br> Patrick Arland Macasadia</h1>
-                        <p class="lead my-4">
+                        <p class="lead my-4 text-align-justify">
                             Passionate and motivated Information Technology student eager to learn and grow in the field
                             of technology.
                             Developing skills in programming, software development, and problem-solving while seeking
@@ -59,7 +59,7 @@
         </div>
     </section>
 
-    <section id="academic" class="bg-light text-dark py-5">
+    <!-- <section id="academic" class="bg-light text-dark py-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-left">
@@ -109,7 +109,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section id="projects" class="text-dark py-5">
         <div class="container">
@@ -119,26 +119,76 @@
                     <p class="lead text-muted mb-5">Explore a collection of my programming and web development projects</p>
                 </div>
             </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-center">
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center">
+
                 <div id="projects-a.blog" class="col">
-                    <a href="https://patwickssss.github.io/a.Blog/" class="text-decoration-none">
+                    <a href="blog/a.Blog/index.html" class="text-decoration-none">
                         <div class="card border shadow-sm h-100">
                             <img src="../patwickssss.github.io/assets/Img/poster/ablog-poster.png" class="card-img-top"
                                 style="height: 200px; object-fit: cover;" alt="a.Blog">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold px-3">a.Blog</h5>
                                 <p class="card-text text-muted text-align-justify px-3">
-                                    A personal blog featuring original stories, reflections, and ideas.
-                                    Designed and developed using HTML, CSS, and JavaScript to deliver a clean and responsive experience, optimized for desktop devices.
+                                    A personal blog static website designed for sharing original stories, reflections, and creative ideas.
                                 </p>
                             </div>
                         </div>
                     </a>
                 </div>
 
+                <div id="projects-cozy_boba" class="col">
+                    <a href="blog/cozy_boba/index.html" class="text-decoration-none">
+                        <div class="card border shadow-sm h-100">
+                            <img src="../patwickssss.github.io/assets/Img/poster/cozyboba-poster.png" class="card-img-top"
+                                style="height: 200px; object-fit: cover;" alt="Cozy Boba">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold px-3">Cozy Boba</h5>
+                                <p class="card-text text-muted text-align-justify px-3">
+                                    A coffee shop and café management system designed to streamline ordering and sales operations for a small food and beverage business.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div id="projects-echo_protocol" class="col">
+                    <a href="blog/echo_protocol/index.html" class="text-decoration-none">
+                        <div class="card border shadow-sm h-100">
+                            <img src="../patwickssss.github.io/assets/Img/poster/echoprotocol-poster.jpeg" class="card-img-top"
+                                style="height: 200px; object-fit: cover;" alt="Echo Protocol">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold px-3">Echo Protocol</h5>
+                                <p class="card-text text-muted text-align-justify px-3">
+                                    A 2D pixel-style arcade shooter set in a futuristic sci-fi military world where rogue technology threatens humanity.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Sample card -->
+                <!-- <div id="projects-sample" class="col">
+                    <a href="https://patwickssss.github.io/echo_protocol/" class="text-decoration-none">
+                        <div class="card border shadow-sm h-100">
+                            <img src="../patwickssss.github.io/assets/Img/poster/echoprotocol-poster.jpeg" class="card-img-top"
+                                style="height: 200px; object-fit: cover;" alt="Echo Protocol">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold px-3">Echo Protocol</h5>
+                                <p class="card-text text-muted text-align-justify px-3">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Pellentesque bibendum ligula et ipsum porttitor, et ornare elit dictum.
+                                    Pellentesque volutpat vulputate varius. Maecenas venenatis tellus vel metus faucibus placerat.
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+
                 <div class="col">
                     <div class="card border shadow-sm h-100">
                         <div class="card-body d-flex flex-column justify-content-center text-center">
+                            <img src="assets/Img/Group 26.svg" class="card-img my-4" style="height: 70px;">
                             <h5 class="card-title fw-bold px-3">New Builds in Progress</h5>
                             <p class="card-text text-muted text-align-justify px-3">
                                 I’m actively working on improving my skills and developing new projects.
@@ -147,7 +197,9 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
         </div>
     </section>
 
