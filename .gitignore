@@ -2,4 +2,5 @@
 /blog_v1
 
 # Ignore ALL .txt files
+/Assets/txt
 *.txt
