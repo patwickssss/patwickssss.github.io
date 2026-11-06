@@ -1,6 +1,2 @@
-# Ignore all file on blog_v1 folder
-/blog_v1
-
-# Ignore ALL .txt files
-/Assets/txt
-*.txt
+# Ignore all files in the ignore folder/directory
+/ignore/*

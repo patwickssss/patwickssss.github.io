@@ -1,9 +1,3 @@
-/* ==========================================================================
-   projects.js — renders project cards (index.html) and project pages
-   (blog/project.html) from window.PROJECTS in projects-data.js.
-   Markup/classes are the same ones already used in theme.css, so the look
-   is unchanged. Nothing to edit here when adding a project.
-   ========================================================================== */
 (function () {
     // "" on index.html, "../" on blog/project.html (set with data-root on <body>)
     const ROOT = document.body.dataset.root || '';
@@ -12,7 +6,6 @@
     const ext = (href) => (/^https?:/.test(href) ? ' target="_blank" rel="noopener noreferrer"' : '');
     const all = window.PROJECTS || [];
 
-    /* ---------- Card on index.html ---------- */
     const cardHTML = (p) => `
         <div id="projects_${p.id}" class="col-md-6 col-lg-4">
             <div class="card tech-card h-100">
@@ -27,7 +20,6 @@
             </div>
         </div>`;
 
-    /* ---------- Full page on blog/project.html ---------- */
     const pageHTML = (p) => {
         const o = p.overview, d = p.details, s = p.skills;
         return `
@@ -122,8 +114,6 @@
         </section>` : ''}`;
     };
 
-    /* ---------- Run ---------- */
-    // index.html: cards go BEFORE the static "New Builds in Progress" card
     const grid = document.getElementById('project-cards');
     if (grid) {
         grid.insertAdjacentHTML('afterbegin', all.filter((p) => !p.hidden).map(cardHTML).join(''));

@@ -2,185 +2,289 @@
 
 window.PROJECTS = [
   {
-    "id": "a_blog",
-    "title": "a.Blog",
-    "eyebrow": "Personal blog project",
-    "poster": "Assets/Img/poster/ablog-poster.png",
-    "posterAlt": "a.Blog poster",
+    "id": "lol_champions",
+    "title": "League of Legends Champions",
+    "eyebrow": "API-Integrated Website",
+    "poster": "Assets/Img/poster/LOL-poster.png",
+    "posterAlt": "League of Legends Champions website poster",
     "card": {
-      "title": "a.Blog",
-      "text": "A personal blogging website featuring post creation, category-based browsing, a profile sidebar, and a saved reading library. Built with Bootstrap and JavaScript for a responsive and interactive user experience."
+      "title": "League of Legends Champions",
+      "text": "An interactive champion information website that uses the Data Dragon API to retrieve and display League of Legends champion information, abilities, and lore."
     },
     "hero": {
-      "lead": "A personal blog website where posts can be written, browsed, and saved, all in a single page. Built with Bootstrap and JavaScript for a clean, readable, and interactive experience.",
-      "buttonLabel": "View design focus"
+      "lead": "League of Legends Champions is an API-integrated website designed to let users explore the champions of Runeterra. Using Riot Games' Data Dragon resources, the application retrieves champion data and presents character information, artwork, abilities, and descriptions through an interactive browsing experience.",
+      "buttonLabel": "Explore features"
     },
     "overview": {
       "id": "overview",
       "heading": "Project overview",
       "paragraphs": [
-        "a.Blog is a personal blog built for sharing original stories, reflections, and ideas. This updated version uses Bootstrap for the layout and components, and JavaScript to power the interactions, so the site feels like a small app while staying a simple front-end project.",
-        "A profile sidebar sits beside the main feed, and a top navigation switches between Home, Blog, Library, and About without reloading the page. Visitors can create their own post through a form, and posts are organized by category, so content is easy to find and enjoy."
+        "League of Legends Champions is a front-end web application developed using HTML, CSS, Bootstrap, and JavaScript. It integrates the Data Dragon API to retrieve structured champion information and dynamically display it through an organized website interface.",
+        "The application allows users to browse available champions, search for specific characters, and explore individual champion details. The detail view presents relevant information such as champion artwork, descriptions, lore, and abilities retrieved from the API.",
+        "The project demonstrates how external APIs can be integrated into a website to transform structured data into an interactive and accessible user experience. It also provides practical experience in asynchronous JavaScript operations, JSON data handling, and dynamic content rendering."
       ],
       "links": [
         {
-          "label": "Explore Website",
+          "label": "View live demo",
+          "href": "https://patwickssss.github.io/_webdev/ACT03/index.html"
+        }
+      ],
+      "sidebar": [
+        {
+          "label": "Headline",
+          "text": "An interactive League of Legends champion directory powered by Riot Games' Data Dragon API."
+        },
+        {
+          "label": "Role",
+          "text": "Web developer responsible for API integration, dynamic content rendering, search functionality, and interface development."
+        },
+        {
+          "label": "Tech stack",
+          "text": "HTML, CSS, Bootstrap 5, JavaScript, Riot Games Data Dragon API, and JSON."
+        }
+      ]
+    },
+    "details": {
+      "id": "features",
+      "left": {
+        "heading": "Key features",
+        "intro": "The website combines external API data with interactive front-end components to provide a centralized browsing experience for League of Legends champions.",
+        "bullets": [
+          "Retrieve champion data using the Data Dragon API.",
+          "Browse champion listings with their corresponding artwork.",
+          "Search and filter champions through an interactive interface.",
+          "View detailed champion information and background lore.",
+          "Display champion abilities and spell descriptions from API data.",
+          "Navigate champion listings through pagination."
+        ]
+      },
+      "right": {
+        "heading": "Browsing experience",
+        "intro": "The interface is designed around easy champion discovery, with structured listings and dedicated detail views that make exploring character information straightforward.",
+        "cards": [
+          {
+            "title": "API integration",
+            "text": "Fetch structured champion information from Riot Games' Data Dragon resources."
+          },
+          {
+            "title": "Champion directory",
+            "text": "Browse a collection of champions through organized cards and listings."
+          },
+          {
+            "title": "Search and filtering",
+            "text": "Find specific champions more efficiently using interactive search functionality."
+          },
+          {
+            "title": "Champion details",
+            "text": "Explore champion descriptions, lore, artwork, and individual abilities."
+          }
+        ]
+      }
+    },
+    "skills": {
+      "heading": "What I demonstrated",
+      "paragraphs": [
+        "This project demonstrates my ability to integrate third-party APIs into a front-end application and transform retrieved JSON data into meaningful website content.",
+        "It strengthened my understanding of asynchronous JavaScript, API requests, data parsing, dynamic rendering, and responsive interface development while providing experience in building an interactive website around an external game data source."
+      ],
+      "panelTitle": "Core skills",
+      "items": [
+        "REST API integration",
+        "JavaScript asynchronous programming",
+        "JSON data handling",
+        "Dynamic DOM manipulation",
+        "Search and filtering functionality",
+        "Bootstrap responsive design"
+      ]
+    }
+  },
+  {
+    "id": "ablog",
+    "title": "a.Blog",
+    "eyebrow": "Personal Blogging Platform",
+    "poster": "Assets/Img/poster/ablog-poster.png",
+    "posterAlt": "a.Blog website poster",
+    "card": {
+      "title": "a.Blog",
+      "text": "A personal blogging platform where users can create, browse, and save posts in a clean and organized single-page experience."
+    },
+    "hero": {
+      "lead": "a.Blog is a personal blogging platform designed to provide a simple and organized space for creating, browsing, and saving written content. It combines a clean interface with browser-based data storage to deliver an accessible blogging experience.",
+      "buttonLabel": "Explore features"
+    },
+    "overview": {
+      "id": "overview",
+      "heading": "Project overview",
+      "paragraphs": [
+        "a.Blog is a front-end web application developed using HTML, CSS, Bootstrap, and JavaScript. It provides an interactive environment where users can create blog posts, browse published content, and organize saved posts through a built-in library and bookmarking functionality.",
+        "The application uses browser localStorage to maintain posts, library entries, and bookmarks. This allows user-generated content and saved items to remain available between browser sessions without requiring a separate backend database.",
+        "The project focuses on combining practical JavaScript functionality with a responsive and user-friendly interface, demonstrating how a lightweight blogging platform can be developed using front-end web technologies."
+      ],
+      "links": [
+        {
+          "label": "View live demo",
           "href": "https://patwickssss.github.io/_webdev/ACT02/index.html"
         }
       ],
       "sidebar": [
         {
           "label": "Headline",
-          "text": "A personal blog with a profile sidebar, post creation, and a saved reading library."
+          "text": "A personal blogging platform for creating, browsing, organizing, and bookmarking written content."
         },
         {
           "label": "Role",
-          "text": "Front-end developer focused on structure, readability, and interactive UI/UX."
+          "text": "Web developer responsible for front-end development, interface design, and JavaScript functionality."
         },
         {
           "label": "Tech stack",
-          "text": "HTML, CSS, JavaScript, Bootstrap 5, Bootstrap Icons, and responsive design."
+          "text": "HTML, CSS, Bootstrap 5, JavaScript, and browser localStorage."
         }
       ]
     },
     "details": {
-      "id": "design",
+      "id": "features",
       "left": {
-        "heading": "Design and experience",
-        "intro": "The site uses a warm, clean look that supports reading and content discovery. Bootstrap's grid and components handle the layout, while spacing and typography keep the interface calm and engaging.",
+        "heading": "Key features",
+        "intro": "a.Blog brings essential blogging functions together in one interface, allowing users to manage and explore written content without requiring a complex backend setup.",
         "bullets": [
-          "Profile sidebar with bio and social links beside the main feed.",
-          "Top navigation that switches pages instantly with JavaScript.",
-          "Bootstrap modal for creating new posts.",
-          "Responsive layout that adapts from desktop to mobile screens."
+          "Create and manage personal blog posts.",
+          "Browse published posts through a structured feed.",
+          "Save and organize posts in a personal library.",
+          "Bookmark posts for convenient access.",
+          "Use browser localStorage for persistent client-side data."
         ]
       },
       "right": {
         "heading": "User experience",
-        "intro": "The blog prioritizes readability and ease of use, with a simple browsing flow and interactions that stay out of the reader's way.",
+        "intro": "The platform emphasizes simplicity, readability, and straightforward navigation, making it easier to interact with blog content and manage saved entries.",
         "cards": [
           {
-            "title": "Easy posting",
-            "text": "A guided form with a category, date, author, content, an optional link, and up to 3 images with previews."
+            "title": "Post management",
+            "text": "Create and organize written content through an accessible blogging interface."
           },
           {
-            "title": "Clear feedback",
-            "text": "Form validation shows helpful messages for missing or invalid input."
+            "title": "Personal library",
+            "text": "Keep selected posts organized for future reading and reference."
           },
           {
-            "title": "Organized pages",
-            "text": "Home shows every post, Blog shows my own, and Library keeps saved reads."
+            "title": "Bookmarking",
+            "text": "Save interesting posts and access them through a dedicated collection."
           },
           {
-            "title": "Simple and fast",
-            "text": "No heavy frameworks, just Bootstrap and JavaScript for quick page loads."
+            "title": "Persistent storage",
+            "text": "JavaScript localStorage preserves supported content and saved items across browser sessions."
           }
         ]
       }
     },
     "skills": {
-      "heading": "Skills demonstrated",
+      "heading": "What I demonstrated",
       "paragraphs": [
-        "This project shows front-end fundamentals applied with Bootstrap and JavaScript: building a responsive layout, handling forms and user input, and updating the page dynamically to create a smooth, professional experience."
+        "a.Blog demonstrates the practical application of front-end development concepts by combining interface design, DOM manipulation, event handling, and browser-based storage.",
+        "The project strengthened my understanding of JavaScript-driven applications and how to organize user-generated content without depending on a traditional server-side database."
       ],
-      "panelTitle": "Core strengths",
+      "panelTitle": "Core skills",
       "items": [
-        "Front-end HTML/CSS structure",
-        "Bootstrap layout and components",
-        "JavaScript interactivity and form validation",
-        "Responsive web design",
-        "UI/UX and content organization"
+        "Front-end web development",
+        "JavaScript DOM manipulation",
+        "Browser localStorage integration",
+        "Responsive UI/UX design",
+        "Client-side data management"
       ]
     }
   },
   {
-    "id": "gallery",
+    "id": "agallery",
     "title": "a.Gallery",
-    "eyebrow": "Personal gallery project",
+    "eyebrow": "Photography and Visual Gallery",
     "poster": "Assets/Img/poster/gallery-poster.png",
-    "posterAlt": "a.Gallery poster",
+    "posterAlt": "a.Gallery website poster",
     "card": {
-      "title": "Gallery",
-      "text": "An image-led project focused on presenting a visual collection through a clear, inviting browsing experience."
+      "title": "a.Gallery",
+      "text": "A minimalist photo gallery website designed to showcase original photography, artwork, and visual collections through an organized browsing experience."
     },
     "hero": {
-      "lead": "A static photo gallery built to master the fundamentals of Bootstrap. It puts the grid system, responsive breakpoints, utility classes, and core components into practice, with a clean, desktop-first viewing experience for original photography, artwork, and visual collections.",
-      "buttonLabel": "See the Bootstrap focus"
+      "lead": "a.Gallery is a static photo gallery website created to present photography, artwork, and visual collections in an organized and visually engaging layout. Built with HTML and Bootstrap, it focuses on image presentation, responsive design, and straightforward navigation.",
+      "buttonLabel": "Explore gallery"
     },
     "overview": {
       "id": "overview",
       "heading": "Project overview",
       "paragraphs": [
-        "a.Gallery was built as a hands-on exercise in mastering the fundamentals of Bootstrap. Instead of reaching for custom CSS first, I used Bootstrap's grid, utility classes, and components to organize photos in a responsive grid with a full-size viewer, optimized for desktop with responsive support for smaller screens.",
-        "The site displays visual work in a tidy, engaging way while keeping maintenance and complexity low. It shows how well-understood front-end fundamentals can create a compelling browsing experience without relying on heavy frameworks."
+        "a.Gallery is a static website developed using HTML and Bootstrap. Its primary purpose is to provide a dedicated space for displaying and organizing visual content, allowing visitors to explore photography and artwork through a clean gallery interface.",
+        "The project emphasizes visual presentation and layout structure, using responsive web design principles to make the gallery accessible across different screen sizes.",
+        "Rather than focusing on complex application functionality, a.Gallery highlights the importance of content presentation, image organization, and visual consistency in website development."
       ],
       "links": [
         {
-          "label": "View the live gallery",
+          "label": "View live demo",
           "href": "https://patwickssss.github.io/_webdev/ACT01/index.html"
         }
       ],
       "sidebar": [
         {
           "label": "Headline",
-          "text": "A static gallery website built to master the fundamentals of Bootstrap."
+          "text": "A static visual gallery for showcasing photography, artwork, and curated image collections."
         },
         {
           "label": "Role",
-          "text": "Front-end developer practicing Bootstrap's layout system, components, and utilities."
+          "text": "Web developer responsible for website structure, visual presentation, and responsive layout."
         },
         {
           "label": "Tech stack",
-          "text": "HTML, CSS, Bootstrap 5, and responsive design."
+          "text": "HTML, Bootstrap 5, CSS, and responsive web design."
         }
       ]
     },
     "details": {
-      "id": "design",
+      "id": "features",
       "left": {
-        "heading": "Design and experience",
-        "intro": "The site uses a clean, modern look that lets the images take center stage. Grid spacing, neutral colors, and consistent image framing keep the interface calm while the work stays in focus.",
+        "heading": "Design and development",
+        "intro": "a.Gallery focuses on creating a visually organized browsing experience where images take center stage and the interface supports rather than distracts from the content.",
         "bullets": [
-          "Responsive image grid with even spacing and consistent sizing.",
-          "Lightbox viewer for full-size images with next and previous controls.",
-          "Category filters for quick access to specific collections.",
-          "Visual consistency across desktop and mobile screens."
+          "Structured presentation of photographs and visual collections.",
+          "Responsive gallery layout using Bootstrap.",
+          "Organized image placement and visual hierarchy.",
+          "Clean and straightforward website navigation.",
+          "Consistent styling and spacing throughout the interface."
         ]
       },
       "right": {
-        "heading": "User experience",
-        "intro": "The gallery prioritizes easy browsing and clear presentation. It guides visitors from thumbnail to full-size view with minimal distractions.",
+        "heading": "Visual experience",
+        "intro": "The website prioritizes simplicity and visual clarity, allowing visitors to focus on the displayed images while maintaining an accessible browsing experience.",
         "cards": [
           {
-            "title": "Clear grid layout",
-            "text": "Balanced spacing that makes every image easy to scan."
+            "title": "Visual showcase",
+            "text": "Present photographs and artwork through an organized gallery layout."
           },
           {
-            "title": "Easy filtering",
-            "text": "Simple category buttons that keep the focus on the images."
+            "title": "Responsive layout",
+            "text": "Bootstrap helps maintain a flexible interface across different screen sizes."
           },
           {
-            "title": "Fast loading",
-            "text": "Static architecture and lazy-loaded images keep pages quick."
+            "title": "Clean presentation",
+            "text": "A minimal design approach keeps attention on the visual content."
           },
           {
-            "title": "Modern appeal",
-            "text": "A polished presentation without unnecessary complexity."
+            "title": "Simple navigation",
+            "text": "An accessible page structure makes browsing the gallery straightforward."
           }
         ]
       }
     },
     "skills": {
-      "heading": "Skills demonstrated",
+      "heading": "What I demonstrated",
       "paragraphs": [
-        "This project is a focused study of Bootstrap fundamentals. It shows how far the framework's grid, utilities, and components can go toward a polished, responsive page with minimal custom CSS."
+        "a.Gallery demonstrates my understanding of website structure, responsive layouts, and visual content presentation. It provided an opportunity to practice organizing image-based content while maintaining a consistent design.",
+        "Through this project, I strengthened my ability to translate a visual concept into a functional and accessible website using fundamental web development technologies."
       ],
-      "panelTitle": "Bootstrap fundamentals",
+      "panelTitle": "Core skills",
       "items": [
-        "Grid system (containers, rows, columns)",
-        "Responsive breakpoints",
-        "Utility classes for spacing, flex, and typography",
-        "Components such as cards and buttons"
+        "HTML page structuring",
+        "Bootstrap framework",
+        "Responsive web design",
+        "Visual layout and composition",
+        "Front-end styling"
       ]
     }
   },
