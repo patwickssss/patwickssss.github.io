@@ -9,7 +9,9 @@
     const cardHTML = (p) => `
         <div id="projects_${p.id}" class="col-md-6 col-lg-4">
             <div class="card tech-card h-100">
-                <img src="${url(p.poster)}" class="card-img-top" alt="${p.card.title}">
+                <div class="project-preview">
+                    <img src="${url(p.poster)}" class="card-img-top" alt="${p.card.title}">
+                </div>
                 <div class="card-body d-flex flex-column px-4">
                     <h5 class="card-title fw-bold">${p.card.title}</h5>
                     <p class="card-text text-muted" style="text-align: justify;">${p.card.text}</p>
